@@ -50,6 +50,7 @@ a{
 /* Header */
 header{
     position: fixed;
+    padding: 0 2rem;
     top: 0;
     left: 0;
     width: 100%;
@@ -57,7 +58,7 @@ header{
 }
 
 header.shadow{
-    background: var(--bg-color);
+    background: #024E87;
     box-shadow: 0 1px 4px hsl(0 4% 14% / 10%);
     transition: .5s;
 }
@@ -68,9 +69,15 @@ header.shadow .logo{
 
 .nav{
     display: flex;
-    align-items: center;
+    margin: 0 auto;
+    text-decoration: none;
     justify-content: space-between;
     padding: 18px 0;
+}
+
+.nav .links{
+    display: flex;
+    gap: 2rem;
 }
 
 .logo{
@@ -118,6 +125,7 @@ header.shadow .logo{
 .home-subtitle{
     font-size: 1rem;
     font-weight: 400;
+    background-color: #024E87;
 }
 
 .about{
@@ -270,6 +278,10 @@ header.shadow .logo{
 .profile-name{
     font-size: .8rem;
     font-weight: 500;
+}
+
+.list_menu {
+    list-style: none;
 }
 
 footer{
