@@ -2,3 +2,13 @@
     position: static;
     background-color: #082f4d;
 }
+
+.notice_list{
+    list-style-type: disc;
+    padding: 0 3rem;
+}
+
+.span_tag{
+    background-color: #053a60;
+    color: whitesmoke;
+}
