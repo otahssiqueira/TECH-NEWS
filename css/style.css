@@ -106,6 +106,7 @@ header.shadow .logo{
 
 .home{
     width: 100%;
+    height: auto;
     min-height: 440px;
     background: url('../img/banner-extra.png');  
     display: grid;
