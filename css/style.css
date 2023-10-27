@@ -106,12 +106,15 @@ header.shadow .logo{
 
 .home{
     width: 100%;
-    height: auto;
+    height: 400px;
     min-height: 440px;
     background: url('../img/banner-extra.png');  
     display: grid;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
+    background-size: 100% 100%;
+    /* background-position: center center; */
+    /* background-attachment: fixed; */
 }
 
 .home-text{
