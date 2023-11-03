@@ -1,11 +1,11 @@
-// nav background
+// NAVBAR BACKGROUND
 let header = document.querySelector("header");
 
 window.addEventListener("scroll", () => {
     header.classList.toggle("shadow", window.scrollY > 0)
 })
 
-//Filter
+// FILTER CATEGORY
 $(document).ready(function () {
     $(".filter-item").click(function () {
         const value = $(this).attr("data-filter");
@@ -21,6 +21,7 @@ $(document).ready(function () {
         }
     });
     $(".filter-item").click(function () {
-        $(this).addClass("active-filter").siblings().removeClass("active-filter")
+        $(this).
+        addClass("active-filter").siblings().removeClass("active-filter")
     });
 });
