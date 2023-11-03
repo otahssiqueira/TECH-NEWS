@@ -25,10 +25,6 @@ a{
     text-decoration: none;
 }
 
-/* li{
-    list-style: none;
-} */
-
 img{
     width: 100%;
 }
@@ -90,28 +86,12 @@ header.shadow .logo{
     color: var(--second-color);
 }
 
-.login{
-    padding: 8px 14px;
-    text-transform: uppercase;
-    font-weight: 500;
-    border-radius: 4px;
-    background: var(--second-color);
-    color: var(--bg-color);
-}
-
-.login:hover{
-    background: hsl(199, 98%, 56%);
-    transition: .5s;
-}
-
 .home{
     width: 100%;
     height: 400px;
     min-height: 440px;
     background: url('../img/banner-extra.png');  
     display: grid;
-    /* justify-content: center;
-    align-items: center; */
     background-size: 100% 100%;
     /* background-position: center center; */
     /* background-attachment: fixed; */
@@ -143,7 +123,7 @@ header.shadow .logo{
 .about .contentBx{
     max-width: 50%;
     width: 50%;
-    text-align: left;
+    text-align: justify;
     padding-right: 40px;
 }
 
@@ -155,6 +135,7 @@ header.shadow .logo{
     text-align: justify;
 }
 
+/* TEXT PARAGRAPH */
 .title-text{
     color: #111;
     font-size: 1em;
@@ -166,24 +147,6 @@ header.shadow .logo{
     min-width: 50%;
     width: 50%;
     min-height: 500px;
-}
-
-.btn2{
-    position: relative;
-    display: inline-block;
-    margin-top: 30px;
-    padding: 10px 30px;
-    background: #fff;
-    border: .8px solid #111;
-    color: #333;
-    text-decoration: none;
-    transition: 0.5s;
-}
-
-.btn2:hover{
-    background-color: var(--second-color);
-    border: none;
-    color: #fff;
 }
 
 .post-filter{
@@ -264,27 +227,7 @@ header.shadow .logo{
     overflow: hidden;
 }
 
-.profile{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.profile-img{
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    object-fit: cover;
-    object-position: center;
-    border: 2px solid var(--second-color);
-}
-
-.profile-name{
-    font-size: .8rem;
-    font-weight: 500;
-}
-
-.list_menu {
+.list_menu{
     list-style: none;
 }
 
@@ -335,6 +278,7 @@ footer p{
     color: #fff;
 }
 
+/* SOCIAL MEDIA */
 .sci{
     margin: 20px;
     display: flex;
@@ -469,7 +413,7 @@ footer p{
     .about .contentBx{
         min-width: 100%;
         width: 100%;
-        text-align: center;
+        text-align: justify;
         padding-right: 0px;
     }
 
@@ -478,15 +422,11 @@ footer p{
         min-width: 100%;
         width: 100%;
         padding-right: 0px;
-        text-align: center;
+        text-align: justify;
     }
 
     .about .imgBx{
         min-height: 250px;
-    }
-
-    .btn2{
-        margin-bottom: 30px;
     }
 
     .post-header{
